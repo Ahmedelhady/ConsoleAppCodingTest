@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3232e56d-13c1-4f98-b674-935d96207eac" name="Fatma@FATMA-PC 2015-01-26 18:25:03" runUser="Fatma-PC\Fatma" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="913099aa-cf6d-44fc-8732-d3755d9ddac6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fatma_FATMA-PC 2015-01-26 18_25_03">
+      <DeploymentItem filename="E:\Jobs projects\FairFax2\AhmedGhamry_ConsoleApp\AhmedGhamry_ConsoleApp\bin\Debug\AhmedGhamry_ConsoleApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-26T18:25:03.3289468+11:00" queuing="2015-01-26T18:25:03.3429476+11:00" start="2015-01-26T18:25:03.4009509+11:00" finish="2015-01-26T18:25:03.9739837+11:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestGetFinalPositionAndPath" storage="e:\jobs projects\fairfax2\ahmedghamry_consoleapp\ahmedghamry_testproject\bin\debug\ahmedghamry_testproject.dll" id="72ef9b11-fc81-2144-b0e5-c3d03945f8e4">
+      <Execution id="84bc1a21-7a0b-48a9-a858-574217770a18" />
+      <TestMethod codeBase="E:/Jobs projects/FairFax2/AhmedGhamry_ConsoleApp/AhmedGhamry_TestProject/bin/Debug/AhmedGhamry_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AhmedGhamry_TestProject.UnitTest1, AhmedGhamry_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetFinalPositionAndPath" />
+    </UnitTest>
+    <UnitTest name="TestIsIntersect" storage="e:\jobs projects\fairfax2\ahmedghamry_consoleapp\ahmedghamry_testproject\bin\debug\ahmedghamry_testproject.dll" id="656f8608-05a3-e341-f1f9-afa93577a264">
+      <Execution id="993a2070-c6f6-4413-b951-817e43b7341f" />
+      <TestMethod codeBase="E:/Jobs projects/FairFax2/AhmedGhamry_ConsoleApp/AhmedGhamry_TestProject/bin/Debug/AhmedGhamry_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AhmedGhamry_TestProject.UnitTest1, AhmedGhamry_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsIntersect" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="656f8608-05a3-e341-f1f9-afa93577a264" executionId="993a2070-c6f6-4413-b951-817e43b7341f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ef9b11-fc81-2144-b0e5-c3d03945f8e4" executionId="84bc1a21-7a0b-48a9-a858-574217770a18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="993a2070-c6f6-4413-b951-817e43b7341f" testId="656f8608-05a3-e341-f1f9-afa93577a264" testName="TestIsIntersect" computerName="FATMA-PC" duration="00:00:00.0425035" startTime="2015-01-26T18:25:03.3999509+11:00" endTime="2015-01-26T18:25:03.9259810+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="993a2070-c6f6-4413-b951-817e43b7341f">
+    </UnitTestResult>
+    <UnitTestResult executionId="84bc1a21-7a0b-48a9-a858-574217770a18" testId="72ef9b11-fc81-2144-b0e5-c3d03945f8e4" testName="TestGetFinalPositionAndPath" computerName="FATMA-PC" duration="00:00:00.0046187" startTime="2015-01-26T18:25:03.9289811+11:00" endTime="2015-01-26T18:25:03.9419819+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84bc1a21-7a0b-48a9-a858-574217770a18">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6232745f-95ec-47e8-a607-82779788355c" name="Fatma@FATMA-PC 2015-01-26 18:10:01" runUser="Fatma-PC\Fatma" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="913099aa-cf6d-44fc-8732-d3755d9ddac6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fatma_FATMA-PC 2015-01-26 18_10_01">
+      <DeploymentItem filename="E:\Jobs projects\FairFax2\AhmedGhamry_ConsoleApp\AhmedGhamry_ConsoleApp\bin\Debug\AhmedGhamry_ConsoleApp.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-01-26T18:10:01.1983479+11:00" queuing="2015-01-26T18:10:03.7654947+11:00" start="2015-01-26T18:10:03.9975080+11:00" finish="2015-01-26T18:10:05.3515855+11:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestGetFinalPositionAndPath" storage="e:\jobs projects\fairfax2\ahmedghamry_consoleapp\ahmedghamry_testproject\bin\debug\ahmedghamry_testproject.dll" id="72ef9b11-fc81-2144-b0e5-c3d03945f8e4">
+      <Execution id="b4f8f008-3467-4c4e-af18-3df6253d9492" />
+      <TestMethod codeBase="E:/Jobs projects/FairFax2/AhmedGhamry_ConsoleApp/AhmedGhamry_TestProject/bin/Debug/AhmedGhamry_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AhmedGhamry_TestProject.UnitTest1, AhmedGhamry_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetFinalPositionAndPath" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="72ef9b11-fc81-2144-b0e5-c3d03945f8e4" executionId="b4f8f008-3467-4c4e-af18-3df6253d9492" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b4f8f008-3467-4c4e-af18-3df6253d9492" testId="72ef9b11-fc81-2144-b0e5-c3d03945f8e4" testName="TestGetFinalPositionAndPath" computerName="FATMA-PC" duration="00:00:00.2286167" startTime="2015-01-26T18:10:04.0515111+11:00" endTime="2015-01-26T18:10:05.2405791+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4f8f008-3467-4c4e-af18-3df6253d9492">
+      <Output>
+        <ErrorInfo>
+          <Message>StringAssert.Contains failed. String '1 3 N' does not contain string '1 33 N'. .</Message>
+          <StackTrace>   at AhmedGhamry_TestProject.UnitTest1.TestGetFinalPositionAndPath() in E:\Jobs projects\FairFax2\AhmedGhamry_ConsoleApp\AhmedGhamry_TestProject\UnitTest1.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
